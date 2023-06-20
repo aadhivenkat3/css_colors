@@ -1,0 +1,66 @@
+table,th,td{
+	border:2px solid black;
+	border-collapse:collapse;
+	
+	width:50%;
+	text-align:center;
+}
+body{
+	background-color:hsl(180,100%,50%);
+}
+.rgb{
+	background-color:rgb(255,0,0);
+	color:rgb(255,255,255);
+}
+.black{
+	color:rgb(255,255,255);
+	background-color:rgb(0,0,0);
+}
+.white{
+	color:rgb(0,0,0);
+	background-color:rgb(255,255,255);
+}
+.gdark{
+	color:rgb(255,255,255);
+	background-color:rgb(60,60,60);
+}
+.glight{
+	color:rgb(0,0,0);
+	background-color:rgb(240,240,240);
+}
+.rgba{
+	color:rgb(0,0,0);
+	background-color:rgba(255,90,70,0.5);
+}
+.rrggbb{
+	color:#ffffff;
+	background-color:#ff0000;
+}
+.blackall{
+	color:#ffffff;
+	background-color:#000000;
+}
+.whiteall{
+	color:#000000;
+	background-color:#ffffff;
+}
+.hued{
+	background-color:hsl(0,100%,50%);
+	color:hsl(0,0%,100%);
+}
+.satp{
+	background-color:hsl(0,100%,50%);
+	color:hsl(0,0%,100%);
+}
+.lightp{
+	background-color:hsl(0,100%,100%);
+	color:hsl(360,0%,0%);
+}
+.hsla{
+	background-color:hsla(0,100%,50%,0.5);
+	color:hsl(0,0%,100%);
+}
+.css{
+	float:right;
+	
+}
